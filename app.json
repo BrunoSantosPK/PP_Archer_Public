@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Archer",
+    "slug": "archerapp",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#472482"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "<pacotePessoal>",
+      "versionCode": 3,
+      "permissions": [],
+      "config": {
+        "googleMobileAdsAppId": "<chaveAdMob>"
+      }
+    }
+  }
+}

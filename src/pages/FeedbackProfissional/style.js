@@ -1,0 +1,38 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+
+    textoTitulo: {
+        fontSize: 18
+    },
+
+    areaHeader: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        borderColor: "#333350"
+    },
+
+    botaoVoltar: {
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center"
+    },
+
+    textoBotalVoltar: {
+        marginLeft: 3
+    },
+
+    secao: {
+        borderRadius: 8,
+        marginTop: 15,
+        paddingHorizontal: 5,
+        paddingVertical: 10
+    },
+
+    textoSecao: {
+        fontSize: 16,
+        marginBottom: 5
+    }
+
+});
